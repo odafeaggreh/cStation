@@ -1552,6 +1552,46 @@ textarea:focus {
   }
 /* Privacy Policy End */
 
+/* Buy coins Start */
+.qFaq{
+  background-color: aliceblue;
+  width: 90%;
+  height: auto;
+  margin: 100px auto;
+  padding: 70px;
+}
+
+
+.Qimg{
+  text-align: center;
+  margin: 50px 10px;
+  display: grid;
+  grid-template-areas: "a b"
+                        "c d";
+}
+
+.cImg{
+  margin: 20px;
+}
+
+.a-img{
+  grid-area: a;
+}
+
+.b-img{
+  grid-area: b;
+}
+
+.c-img{
+  grid-area: c;
+}
+
+.d-img{
+  grid-area: d;
+}
+
+/* Buy coins End */
+
 
 /* Charts Style Start */
 .charts{
