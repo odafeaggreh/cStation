@@ -1372,12 +1372,9 @@ textarea:focus {
 .plans-info{
   text-align: center;
   margin: 30px;}
-.plans-info > h4,
  .plans-info > h6{
-    margin: 30px;}
-
-
-
+    margin: 30px;
+  }
 
 
 /* Sign up Form Style Start */
@@ -1520,3 +1517,37 @@ textarea:focus {
   font-family: inherit;
   width: 100%;
 }
+
+/* Terms And Conditions Start */
+.user-agreement{
+  background-color: aliceblue;
+  margin: 50px 30px;
+  padding: 30px;
+}
+
+
+.user-agreement > section{
+  margin: 70px 0;
+  padding: 20px;
+}
+
+/* Terms And Conditions End */
+
+
+
+/* Privacy Policy Start */
+  .privacy{
+    background-color: aliceblue;
+    margin: 50px 30px;
+    padding: 30px;
+  }
+
+  .privacy > section{
+    margin: 70px 0;
+    padding: 20px;
+  }
+
+  .privacy > section > h2{
+    margin: 10px;
+  }
+/* Privacy Policy End */
