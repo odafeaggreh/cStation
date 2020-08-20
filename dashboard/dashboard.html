@@ -51,7 +51,7 @@
 
 				<ul class="primary-menu-menu">
                     <li class="">
-						<a href="../index.html">Home</a>
+						<a href="../index.html">Go Back Home</a>
                     </li>
                     <li class="">
 						<a href="./dashboard.html">Dashboard</a>
@@ -144,24 +144,45 @@
 		</div>
 	</section>
 
-	<section class="medium-padding80">
+	<section class="medium-padding80 apiWidget">
 		<div class="container" id="coin">
 			<div class="row medium- padding80">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<h4 class="tab-content-title">Bitcoin Live <span>Chart API</span>
-							</h4>
-							<div class="">
-								<script type="text/javascript" src = "https://widgets.cryptocompare.com/serve/v3/coin/chart?fsym=BTC&tsyms=USD,EUR,GBP,CAD">
-								</script>
-							</div>
-								
+						<h4 class="tab-content-title">View Our Live <span>Chart API</span></h4>
+
+
+							<!-- TradingView Widget BEGIN -->
+
+
+						<div class="tradingview-widget-container">
+							<div id="tradingview_407c6"></div>
+							<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+							<script type="text/javascript">
+							new TradingView.widget(
+							{
+							"width": "auto",
+							"height": 610,
+							"symbol": "NASDAQ:AAPL",
+							"interval": "D",
+							"timezone": "Etc/UTC",
+							"theme": "light",
+							"style": "1",
+							"locale": "en",
+							"toolbar_bg": "#f1f3f6",
+							"enable_publishing": false,
+							"allow_symbol_change": true,
+							"container_id": "tradingview_407c6"
+						}
+							);
+							</script>
+						</div>
+						<!-- TradingView Widget END -->
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 		</div>
 	</section>
 </div>
