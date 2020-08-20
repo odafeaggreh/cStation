@@ -1551,3 +1551,27 @@ textarea:focus {
     margin: 10px;
   }
 /* Privacy Policy End */
+
+
+/* Charts Style Start */
+.charts{
+  margin: 20px 10px;
+}
+
+.chart-heading{
+  text-align: center;
+  margin: 10px;
+
+}
+
+.chart-heading h3{
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.tradingview-widget-container{
+  margin: 90px 0;
+}
+
+
+/* Charts Style End */
